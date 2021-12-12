@@ -234,7 +234,7 @@ h2{
   .diario{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 70px;
     width: 100%;
     align-items: center;
   }
@@ -244,7 +244,7 @@ h2{
     height: 650px;
     border-radius: 55px;
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,7 +270,7 @@ h2{
   h2{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 25px;
-    font-weight: 100;
+    font-weight: 300;
     color: #7100A6;
     font-size: 50px;
   }
