@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  color: #7100A6;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+nav .logo{
+  font-size: 30px;
+ font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav .bx-menu{
+  position: absolute;
+  left: 20px;
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+  margin-left: 10px;
+  display: flex;
+  padding: 10px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+nav ul li:hover{
+  background: #eeeeee90;
+  color: #fff;
+}
+
+nav ul .dib{
+  background: #dddddd90;
+}
+
+nav ul .chcns{
+    display: none;
+}  
+
+nav ul li a{
+  text-decoration: none;
+  color: #7100A6;
+  margin-left: 0px;
+}
+
+nav ul p{
+  display: none;
+  color: #fff;
+}
+
+nav ul li .bx{
+  display: none;
+}
+
+nav ul .bx-x, nav ul h1, nav .bx-menu{
+  display: none;
+}
+
+.redes-sociais{
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  position: fixed;
+  top: 50%;
+  left: 30px;
+}
+
+.book{
+  margin-top: 70px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.book .event-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-container h3.year {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid #7100A6;
+}
+
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+.event .event-left {
+  background: #7100A6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+  width: 150px;
+}
+
+.event .event-left .date {
+  font-size: 56px;
+}
+
+.event .event-left .month {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.event .event-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+  font-size: 24px;
+  margin: 24px 0 10px 0;
+  color: #7100A6;
+  text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+  background: #7100A6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 24px 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (max-width: 730px) {
+   nav .logo{
+    font-size: 25px;
+  }
+  
+  nav ul{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+    height: 101vh;
+    background: #7100A6;
+    transition: 1s;
+  }
+  
+  nav ul li{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  nav ul li:hover{
+    background: #9819d480;
+  }
+  
+  nav ul .dib{
+    background: #9819d4;
+  }
+
+  nav ul .chcns{
+    display: block;
+  }
+  
+  nav ul li a{
+    color: #fff;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+  
+  nav ul p{
+    display: block;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  nav ul .bx-x, nav ul h1, nav .bx-menu{
+    display: block;
+  }
+  
+  nav ul .bx-x{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  nav ul h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 200;
+  }
+  
+  nav ul li .bx{
+    display: block;
+    color: #fff;
+  }
+}
+
+@media (max-width: 730px) {
+  .event {
+    flex-direction: column;
+  }
+
+  .event .event-left {
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+  }
+
+  .event .event-left .event-date .date,
+  .event .event-left .event-date .month {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .event .event-left .event-date {
+    padding: 10px 0;
+  }
+
+  .redes-sociais{
+    left: 10px;
+  }
+
+  .book{
+    margin-top: 70px;
+    width: 75%;
+    margin-left: 12.5%;
+  }
+}
