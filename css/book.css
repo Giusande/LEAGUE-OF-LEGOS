@@ -28,8 +28,9 @@ nav{
 
 nav .logo{
   font-size: 30px;
- font-weight: 100;
+  font-weight: 100;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 
 nav .bx-menu{
