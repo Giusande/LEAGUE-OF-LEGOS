@@ -20,3 +20,9 @@ insta.addEventListener('click', function(){
 twitch.addEventListener('click', function(){
   window.location.href = 'https://www.twitch.tv/leagueof_legos/'
 });
+
+var logoHi = document.querySelector('.logo');
+
+logoHi.addEventListener('click', function(){
+  window.location.href = 'index.html'
+});
