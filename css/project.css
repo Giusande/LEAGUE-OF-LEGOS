@@ -28,7 +28,6 @@ nav{
 
 nav .logo{
   font-size: 30px;
- font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
@@ -103,13 +102,12 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
 .project hr{
   margin-bottom: 20px;
   width: 90%;
-  border: 1px solid #7100A690;
+  border: 3px solid #7100A690;
 }
 
 .project p{
   width: 94%;
   text-align: justify;
-  font-weight: 100;
 }
 
 .redes-sociais{
