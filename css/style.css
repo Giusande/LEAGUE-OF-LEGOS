@@ -28,7 +28,6 @@ nav{
 
 nav .logo{
   font-size: 30px;
- font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
@@ -120,7 +119,7 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
   padding: 5px;
   background: #fff;
   border: 0;
-  border: 1px solid #7100A6;
+  border: 3px solid #7100A6;
   border-radius: 5px;
   color: #7100A6;
   cursor: pointer;
@@ -155,7 +154,6 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
   margin-left: 20px;
   margin-top: 10px;
   width: 90%;
-  font-weight: 100;
   font-size: 18px;
 }
 
@@ -163,7 +161,7 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
    padding: 5px;
   background: #fff;
   border: 0;
-  border: 1px solid #7100A680;
+  border: 3px solid #7100A680;
   border-radius: 5px;
   color: #7100A6;
   cursor: pointer;
@@ -195,7 +193,7 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
    padding: 5px;
   background: #fff;
   border: 0;
-  border: 1px solid #7100A680;
+  border: 3px solid #7100A680;
   border-radius: 5px;
   color: #7100A6;
   cursor: pointer;
