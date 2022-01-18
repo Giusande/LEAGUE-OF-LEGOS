@@ -28,7 +28,6 @@ nav{
 
 nav .logo{
   font-size: 30px;
- font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
@@ -101,13 +100,12 @@ nav ul .bx-x, nav ul h1, nav .bx-menu{
 .conheca-lols hr{
   margin-bottom: 20px;
   width: 80%;
-  border: 1px solid #7100A690;
+  border: 3px solid #7100A690;
 }
 
 .conheca-lols p{
   width: 84%;
   text-align: justify;
-  font-weight: 100;
 }
 
 .redes-sociais{
